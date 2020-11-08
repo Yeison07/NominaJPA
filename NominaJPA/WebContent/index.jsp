@@ -7,20 +7,40 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link rel="stylesheet" href="css/style.css">
 <title>Pagina de inicio</title>
 </head>
 <body>
 
+ 
+
+<header>
+<div class="container">
+
+<nav class="navbar navbar-light"> 
+          <h4>Inicio</h4>
+        </nav>
+
+</div>
+</header>
+
 <div class="container pt-5">
   <div class="row pt-5">  
-	<div class="col-sm-12 col-md-6 col-lg-6">
-	 <a href="${pageContext.request.contextPath}/Empleado.do?action=vistaBuscar" class="btn btn-primary float-left">Buscar empleado</a>
+	<div class="col-sm-12 col-md-6 col-lg-6 text-center ">
+	<img src="img/buscar.png" class="img-fluid rounded float-left" alt="Responsive image"><br>
+	 <a href="${pageContext.request.contextPath}/Empleado.do?action=vistaBuscar" class="btn btn-primary">Buscar empleado</a>
 	</div>
-	<div class="col-sm-12 col-md-6 col-lg-6">
-	<a href="${pageContext.request.contextPath}/Empleado.do?action=vistaRegistro" class="btn btn-success float-left">Registrar empleado</a>
+	<div class="col-sm-12 col-md-6 col-lg-6 text-center">
+	<img src="img/registrar.png" class="img-fluid rounded float-left" alt="Responsive image"><br>
+	<a href="${pageContext.request.contextPath}/Empleado.do?action=vistaRegistro" class="btn btn-success">Registrar empleado</a>
 	</div>
   	</div>
   	</div>
+  	
+  <footer class="pt-5">
+  <div class="container mt-5"></div>
+  </footer>
+  	
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
